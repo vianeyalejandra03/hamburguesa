@@ -58,10 +58,9 @@ class SecondPage extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
-                CupertinoButton(color: Colors.red, borderRadius: BorderRadius.circular(30.0), child: Text('Login'), onPressed: () {}), //fin de cupertino
-                CupertinoButton(color: Colors.red, borderRadius: BorderRadius.circular(30.0), child: Text('Login'), onPressed: () {}), //fin de cupertino
+                CupertinoButton(color: Colors.blue, borderRadius: BorderRadius.circular(50.0), child: Text('Login'), onPressed: () {}), //fin de cupertino
               ], //fin de widget
-            ) //fin de column
+            ), //fin de column
           ], //fin de widget
         ), //fin de columna
       ) //fin de container
