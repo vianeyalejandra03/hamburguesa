@@ -21,7 +21,7 @@ class SecondPage extends StatelessWidget {
             Container(
               child: Text(
                 'BURGUER KING',
-                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 45.0, color: Colors.red),
+                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0, color: Colors.red),
               ),
             ), //fin container
           ], //fin de widget
