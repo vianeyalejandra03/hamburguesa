@@ -36,7 +36,7 @@ class SecondPage extends StatelessWidget {
                         child: new Image(
                       width: 300.0,
                       height: 200.0,
-                      child: new AssetImage('assets/images/hamburguesa,jpg'),
+                      child: new AssetImage('assets/images/hamburguesa.jpg'),
                     ))
                   ], //fin de widget
                 ), //fin de stack
