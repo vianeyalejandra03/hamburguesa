@@ -37,10 +37,18 @@ class SecondPage extends StatelessWidget {
                       width: 300.0,
                       height: 200.0,
                       image: new AssetImage('assets/images/hamburguesa.jpg'),
-                    ))
+                    )//fin de image
+                    )
                   ], //fin de widget
                 ), //fin de stack
               ) //container
+              SizedBox(height: 40, ),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: "Email",
+                  icon: Icon(Icons.email)
+                ),//fin de inputdecoration
+              )//fin de textfield
             ] //fin de widget
                 ) //fin de column
           ], //fin de widget
