@@ -68,7 +68,8 @@ class SecondPage extends StatelessWidget {
                           'Login',
                           style: TextStyle(fontSize: 18.0),
                         ),
-                        onPressed: () {}), //fin de cupertino
+                        onPressed: () {}
+                        ), //fin de cupertino
                   ], //fin de widget
                 ) //fin de row
               ], //fin de widget
