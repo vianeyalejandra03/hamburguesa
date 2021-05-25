@@ -58,6 +58,7 @@ class SecondPage extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
+                CupertinoButton(child: Text('Login'), onPressed: () {})
               ], //fin de widget
             ), //fin de column
           ], //fin de widget
