@@ -54,7 +54,12 @@ class SecondPage extends StatelessWidget {
                 ),
                 TextField(
                   decoration: InputDecoration(hintText: "Password", icon: Icon(Icons.vpn_key)), //fin de inputdecoration
-                ) //fin de textfield
+                ), //fin de textfield
+                SizedBox(
+                  height: 40,
+                ),
+                CupertinoButton(color: Colors.red, borderRadius: BorderRadius.circular(30.0), child: Text('Login'), onPressed: () {}), //fin de cupertino
+                CupertinoButton(color: Colors.red, borderRadius: BorderRadius.circular(30.0), child: Text('Login'), onPressed: () {}), //fin de cupertino
               ], //fin de widget
             ) //fin de column
           ], //fin de widget
