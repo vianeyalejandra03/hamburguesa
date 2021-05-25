@@ -27,30 +27,30 @@ class SecondPage extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
-            Column(children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(2.0),
-                child: Stack(
-                  children: <Widget>[
-                    Align(
-                        child: new Image(
-                      width: 300.0,
-                      height: 200.0,
-                      image: new AssetImage('assets/images/hamburguesa.jpg'),
-                    )//fin de image
-                    )
-                  ], //fin de widget
-                ), //fin de stack
-              ) //container
-              SizedBox(height: 40, ),
-              TextField(
-                decoration: InputDecoration(
-                  hintText: "Email",
-                  icon: Icon(Icons.email)
-                ),//fin de inputdecoration
-              )//fin de textfield
-            ] //fin de widget
-                ) //fin de column
+            Column(
+              children: <Widget>[
+                Container(
+                  padding: EdgeInsets.all(2.0),
+                  child: Stack(
+                    children: <Widget>[
+                      Align(
+                          child: new Image(
+                        width: 300.0,
+                        height: 200.0,
+                        image: new AssetImage('assets/images/hamburguesa.jpg'),
+                      ) //fin de image
+                          )
+                    ], //fin de widget
+                  ), //fin de stack
+                ), //container
+                SizedBox(
+                  height: 40,
+                ),
+                TextField(
+                  decoration: InputDecoration(hintText: "Email", icon: Icon(Icons.email)), //fin de inputdecoration
+                ) //fin de textfield
+              ], //fin de widget
+            ) //fin de column
           ], //fin de widget
         ), //fin de columna
       ) //fin de container
