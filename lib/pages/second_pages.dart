@@ -14,7 +14,7 @@ class SecondPage extends StatelessWidget {
         height: double.infinity,
         padding: EdgeInsets.symmetric(horizontal: 30.0),
         child: Column(
-          children: <Widget>{
+          children: <Widget>[
             SizedBox(
               height: 100,
             ),
@@ -24,7 +24,7 @@ class SecondPage extends StatelessWidget {
                 style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 45.0, color: Colors.red),
               ),
             ), //fin container
-          }, //fin de widget
+          ], //fin de widget
         ), //fin de columna
       ) //fin de container
           ), //safearea
