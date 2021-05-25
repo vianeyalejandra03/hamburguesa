@@ -24,6 +24,22 @@ class SecondPage extends StatelessWidget {
                 style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0, color: Colors.red),
               ),
             ), //fin container
+            SizedBox(
+              height: 40,
+            ),
+            Column(children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(2.0),
+                child: Stack(
+                  children: <Widget>[
+                    Align(
+                      child: new AssetImage('assets/images/hamburguesa,jpg'),
+                    )
+                  ], //fin de widget
+                ), //fin de stack
+              ) //container
+            ] //fin de widget
+                ) //fin de column
           ], //fin de widget
         ), //fin de columna
       ) //fin de container
