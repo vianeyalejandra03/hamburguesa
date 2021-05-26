@@ -62,8 +62,9 @@ class SecondPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     FlatButton(
-                      child: Text('Cancelar'),
-                      color: Colors.blue[200],
+                      child: Text('INGRESAR'),
+                      color: Colors.amber,
+                      borderRadius: BorderRadius.circular(30.0),
                       padding: EdgeInsets.all(20.0),
                       onPressed: () {},
                     ), //Fin FlatButton
@@ -73,9 +74,10 @@ class SecondPage extends StatelessWidget {
 
                     RaisedButton(
                       child: Text(
-                        'Siguiente',
+                        'CANCELAR',
                       ),
-                      color: Colors.greenAccent[200],
+                      color: Colors.red[600],
+                       borderRadius: BorderRadius.circular(30.0)
                       splashColor: Colors.cyan,
                       animationDuration: Duration(seconds: 20),
                       padding: EdgeInsets.all(20.0),
