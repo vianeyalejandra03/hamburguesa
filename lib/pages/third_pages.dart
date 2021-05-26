@@ -12,7 +12,7 @@ class _ThirdPageState extends State<ThirdPage> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.purple[300],
-        title: Text('Cards'),
+        title: Text('NOSOTROS COMO EMPRESA'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
@@ -53,21 +53,21 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget _crearCard2() {
     return Card(
       elevation: 5,
-      color: Colors.teal[200],
+      color: Colors.purple[300],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         padding: EdgeInsets.all(20),
         child: Column(
           children: <Widget>[
             Text(
-              'Soy una Card',
+              'NUESTROS CLIENTES NOS RESPALDAN',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 20,
             ),
             Text(
-              'Kimetsu no Yaiba (鬼滅の刃? lit. «espada mata-demonios»), también conocido por su nombre en inglés Demon Slayer y como Guardianes de la Noche en España, es un manga escrito e ilustrado por Koyoharu Gotōge que comenzó a serializarse el 15 de febrero de 2016.',
+              'Dado en las encuestas realizadas cada año y cada dia en nuestras multiples sucursales hemos terminado nuestros 15 años trabajando para ti con un promedio de 4.7 estrellas en servicio al cliente,4.8 en cuestion de productos y un 4.8 en servicios a domicilio siendo de igual forma numero 1 en las encuestas nacionales de comida rapida',
               style: TextStyle(color: Colors.white),
             )
           ],
@@ -87,12 +87,12 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/vianeyalejandra03/mis_imagenes/main/tanjiro1.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/vianeyalejandra03/mis_imagenes/main/burguer.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('card con imagen-Tanjiro'),
+              child: Text('nuestros servicios-2021'),
             )
           ],
         ),
