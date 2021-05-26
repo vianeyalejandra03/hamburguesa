@@ -36,12 +36,12 @@ class _ThirdPageState extends State<ThirdPage> {
               Container(
                 height: 200,
                 width: 350,
-                decoration: BoxDecoration(color: Color(0xFFEEEEEE)),
+                decoration: BoxDecoration(color: Color(0xFFFFC300)),
                 child: Container(
                   height: 100,
                   width: 100,
                   decoration: BoxDecoration(
-                    color: Color(0xFFFFCC9A),
+                    color: Color(0xFFB9FF00),
                     shape: BoxShape.circle,
                   ),
                   child: Align(
@@ -66,7 +66,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   height: 100,
                   width: 150,
                   decoration: BoxDecoration(
-                    color: Color(0xFF9EFFF1),
+                    color: Color(0xFFC100FF),
                     shape: BoxShape.rectangle,
                   ),
                   child: Align(
