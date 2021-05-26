@@ -15,11 +15,11 @@ class _ThirdPageState extends State<ThirdPage> {
           child: Column(
             children: <Widget>[
               SizedBox(
-                height: 50.0,
+                height: 10.0,
               ),
               Container(
-                height: 200,
-                width: 350,
+                height: 100,
+                width: 300,
                 decoration: BoxDecoration(color: Color(0xA2FF88AC)),
                 child: Align(
                   alignment: Alignment(0.1, 0),
