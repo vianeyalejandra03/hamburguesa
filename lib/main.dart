@@ -43,7 +43,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
-            icon: Icon(Icons.badge_sharp, color: Colors.amber, size: 30.0), //icon
+            icon: Icon(Icons.home, color: Colors.amber, size: 30.0), //icon
             title: Text('INICIO')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.contacts, color: Colors.red, size: 30.0), //icon
