@@ -11,7 +11,7 @@ class _ThirdPageState extends State<ThirdPage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.tealAccent[400],
+        backgroundColor: Colors.purple[300],
         title: Text('Cards'),
       ),
       body: SingleChildScrollView(
@@ -37,13 +37,13 @@ class _ThirdPageState extends State<ThirdPage> {
         child: Column(
           children: <Widget>[
             Text(
-              'Soy una Card',
+              '¿QUE SOMOS?',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
             SizedBox(
               height: 20,
             ),
-            Text('Kimetsu no Yaiba (鬼滅の刃? lit. «espada mata-demonios»), también conocido por su nombre en inglés Demon Slayer y como Guardianes de la Noche en España, es un manga escrito e ilustrado por Koyoharu Gotōge que comenzó a serializarse el 15 de febrero de 2016.')
+            Text('Somos una empresa socialmente responsable que siempre trata de ofrecerte los mejores servicios en la mejor calidad como siempre, es por eso que somos la empresa numero 1 en el pais en nuestro sitio')
           ],
         ),
       ),
