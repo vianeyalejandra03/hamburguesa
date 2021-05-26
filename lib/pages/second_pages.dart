@@ -64,7 +64,7 @@ class SecondPage extends StatelessWidget {
                     FlatButton(
                       child: Text('INGRESAR'),
                       color: Colors.amber,
-                      borderRadius: BorderRadius.circular(30.0),
+                      // borderRadius: BorderRadius.circular(30.0),
                       padding: EdgeInsets.all(20.0),
                       onPressed: () {},
                     ), //Fin FlatButton
@@ -77,7 +77,7 @@ class SecondPage extends StatelessWidget {
                         'CANCELAR',
                       ),
                       color: Colors.red[600],
-                      borderRadius: BorderRadius.circular(30.0),
+                      // borderRadius: BorderRadius.circular(30.0),
                       splashColor: Colors.cyan,
                       animationDuration: Duration(seconds: 20),
                       padding: EdgeInsets.all(20.0),
