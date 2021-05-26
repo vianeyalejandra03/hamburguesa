@@ -24,7 +24,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 child: Align(
                   alignment: Alignment(0.1, 0),
                   child: Text(
-                    "Primer Contenedor",
+                    "CONGELADOS Y LACTEOS",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
@@ -47,7 +47,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   child: Align(
                     alignment: Alignment(0, 0.1),
                     child: Text(
-                      "Segundo Contenedor",
+                      "HIGIENE PERSONAL",
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 20.0, color: Colors.black),
                     ),
@@ -72,7 +72,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   child: Align(
                     alignment: Alignment(0.1, 0.1),
                     child: Text(
-                      "Vianey Benitez",
+                      "CARNES",
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 20.0, color: Colors.black),
                     ),
