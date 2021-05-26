@@ -12,7 +12,7 @@ class FirstPage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber,
       ),
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[200],
       body: Container(
         child: Center(
           child: Column(
