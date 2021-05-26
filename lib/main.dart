@@ -43,14 +43,14 @@ class _PaginaInicioState extends State<PaginaInicio> {
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.amber, size: 30.0), //icon
-            title: Text('Casa')), //
+            icon: Icon(Icons.badge_sharp, color: Colors.amber, size: 30.0), //icon
+            title: Text('INICIO')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.format_align_center, color: Colors.red, size: 30.0), //icon
-            title: Text('Articulos')), //
+            icon: Icon(Icons.contacts, color: Colors.red, size: 30.0), //icon
+            title: Text('REGISTRO')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart, color: Colors.purple, size: 30.0), //icon
-            title: Text('Compras')), //
+            icon: Icon(Icons.beenhere_sharp, color: Colors.purple, size: 30.0), //icon
+            title: Text('NOSOTROS')), //
       ]), // bottom
     ); //fin de scaffold
   } //fin de widget
