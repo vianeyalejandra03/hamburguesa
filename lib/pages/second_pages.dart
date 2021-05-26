@@ -59,19 +59,34 @@ class SecondPage extends StatelessWidget {
                   height: 40,
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    CupertinoButton(
-                        padding: EdgeInsets.symmetric(horizontal: 30.0),
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(30.0),
-                        child: Text(
-                          'Login',
-                          style: TextStyle(fontSize: 18.0),
-                        ),
-                        onPressed: () {}
-                        ), //fin de cupertino
-                  ], //fin de widget
-                ) //fin de row
+                    FlatButton(
+                      child: Text('Cancelar'),
+                      color: Colors.blue[200],
+                      padding: EdgeInsets.all(20.0),
+                      onPressed: () {},
+                    ), //Fin FlatButton
+                    new Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                    ),
+
+                    RaisedButton(
+                      child: Text(
+                        'Siguiente',
+                      ),
+                      color: Colors.greenAccent[200],
+                      splashColor: Colors.cyan,
+                      animationDuration: Duration(seconds: 20),
+                      padding: EdgeInsets.all(20.0),
+                      colorBrightness: Brightness.light,
+                      onPressed: () {},
+                    ), //Fin Raised Button
+                    SizedBox(
+                      height: 40,
+                    ),
+                  ], //Fin niños Widget
+                ), //Fin de Niño Row
               ], //fin de widget
             ), //fin de column
           ], //fin de widget
