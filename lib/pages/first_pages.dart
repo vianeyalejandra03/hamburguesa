@@ -10,13 +10,12 @@ class FirstPage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        backgroundColor: Colors.red[200],
+        backgroundColor: Colors.amber,
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blue,
       body: Container(
         child: Center(
           child: Column(
-            // center the children
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Container(
